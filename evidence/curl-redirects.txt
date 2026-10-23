@@ -1,0 +1,12 @@
+Captured 22 Oct 2026, about 15:38 UTC, curl.exe -sI
+
+curl.exe -sI http://cynbit.in
+HTTP/1.0 308 Permanent Redirect
+Location: https://cynbit.in/
+
+curl.exe -sI https://cynbit.in
+HTTP/1.1 307 Temporary Redirect
+Location: https://www.cynbit.in/
+
+curl.exe -sI https://www.cynbit.in
+HTTP/1.1 200 OK
